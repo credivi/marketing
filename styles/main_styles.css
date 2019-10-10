@@ -17,7 +17,7 @@
 10. Classes
 11. Pricing
 12. Footer
-
+13. Contact
 
 ******************************/
 
@@ -46,7 +46,7 @@ body
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
-	color: #a5a5a5;
+	color: #f4f7fe;
 }
 div
 {
@@ -616,7 +616,7 @@ section
 .home
 {
 	width: 100%;
-	height: 919px;
+	height: 719px;
 }
 .home_slider_overlay
 {
@@ -944,14 +944,15 @@ section
 .cta_content
 {
 	width: 60%;
-	padding-top: 95px;
+	padding-top: 60px;
 	padding-bottom: 88px;
 	padding-left: 200px;
 	padding-right: 220px;
 }
-.cta .section_title h1
+.cta .section_title h2
 {
 	color: #ffffff;
+	font-size: 36px;
 }
 .cta_list
 {
@@ -1040,7 +1041,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: solid 3px #ff0e3b;
+	border: solid 1px #ff0e3b;
 	content: '';
 	border-radius: 50%;
 	opacity: 0;
@@ -1057,6 +1058,7 @@ section
 .classes_slide_wrap:hover > div
 {
 	background: #190a49;
+	color: #ffffff;
 }
 .classes_title h3
 {
@@ -1070,10 +1072,16 @@ section
 {
 	color: #ffffff;
 }
+
+.classes_slide_wrap:hover .classes_text p
+{
+	color: #ffffff;
+}
 .classes_text
 {
 	margin-top: 25px;
 }
+
 
 /*********************************
 11. Pricing
@@ -1313,4 +1321,183 @@ section
 	font-weight: 700;
 	color: rgba(255,255,255,0.38);
 	text-transform: uppercase;
+}
+
+/*********************************
+13. Contact
+*********************************/
+
+.contact
+{
+	background: #ffffff;
+}
+.custom_container_wrap > .container
+{
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.custom_container_wrap > .container > .row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+.custom_container_wrap > .container > .row > div[class^='col']
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.contact_row
+{
+	margin-top: 30px;
+}
+.contact_content
+{
+	padding-left: 183px;
+	padding-right: 30px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.contact_title
+{
+	font-size: 24px;
+	font-weight: 700;
+	color: #2c2c2c;
+	margin-top: 36px;
+}
+.contact_info_list ul li
+{
+	position: relative;
+	padding-left: 27px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #2c2c2c;
+}
+.contact_info_list ul li:not(:last-of-type)
+{
+	margin-bottom: 22px;
+}
+.contact_info_list ul li::before
+{
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: #ff0e3b;
+	content: '';
+}
+.contact_form_container
+{
+	margin-top: 76px;
+}
+.contact_input
+{
+	height: 62px;
+	width: 100%;
+	background: #f2f2f9;
+	padding-left: 34px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	font-weight: 600;
+	color: #2c2c2c;
+}
+.contact_input::-webkit-input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #2c2c2c !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #2c2c2c !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #2c2c2c !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #2c2c2c !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #2c2c2c !important;
+}
+.contact_form_row > div:not(:last-of-type)
+{
+	margin-bottom: 25px;
+}
+.contact_textarea
+{
+	height: 223px;
+	padding-top: 20px;
+}
+.contact_button
+{
+	width: 216px;
+	height: 65px;
+	background: #ff0e3b;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 0.075em;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border: solid 2px #ff0e3b;
+	margin-top: 25px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.contact_button:hover
+{
+	background: transparent;
+	color: #ff0e3b;
+}
+.contact_map_container
+{
+	height: 100%;
+	padding-left: 110px;
+}
+.map
+{
+	height: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
 }
