@@ -675,9 +675,15 @@ section
 }
 .home_title h1, h2, h6
 {
-	font-size: 60px;
-	font-weight: 300;
-	color: #ffffff;
+	font-size: 48px;
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	line-height: 1.2;
+	margin-bottom: 0;
+	color: #2c2c2c;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
@@ -844,6 +850,8 @@ section
 .intro_box_title
 {
 	margin-top: 25px;
+	color: #ffffff;
+	font-size: 18px;
 }
 .intro_box_title h3
 {
@@ -860,6 +868,11 @@ section
 .intro_box_text p
 {
 	color: #ffffff;
+}
+#h1
+{
+	color: #ffffff;
+	font-size: 18px;
 }
 
 /*********************************
@@ -1071,7 +1084,7 @@ section
 	padding-top: 101px;
 	padding-bottom: 100px;
 }
-.pricing .section_title h1
+.pricing .section_title h2
 {
 	color: #ffffff;
 }
