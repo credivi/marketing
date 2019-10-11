@@ -127,9 +127,11 @@
 5. 1024px
 ************/
 
-@media only screen and (max-width: 1024px)
+@media only screen and (min-width: 1024px)
 {
-	
+	#t1,#t2,#t3{
+	margin-top: 15em;
+	}
 }
 
 /************
@@ -330,14 +332,15 @@
 		font-size: 25px;
 	}
 	#t1{
-		padding-top: 0em;
+		padding-top: 10em;
 	}
 	#t2{
 		padding-bottom: 18em;
 	}
 	#t3{
-		padding-top: 22em;
+		padding-top: 20em;
 	}
+
 }
 
 /************
