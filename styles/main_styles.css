@@ -566,7 +566,7 @@ section
 }
 .menu_close
 {
-	position: absolute;
+	//position: absolute;
 	top: 60px;
 	right: 60px;
 	font-size: 12px;
