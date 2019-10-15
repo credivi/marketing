@@ -331,6 +331,11 @@
 	{
 		font-size: 25px;
 	}
+
+/******************************************
+estilo de los titulos del slide en celular
+*******************************************/
+
 	#t1{
 		padding-top: 10em;
 	}
@@ -339,6 +344,10 @@
 	}
 	#t3{
 		padding-top: 15em;
+	}
+
+	#t1 span, #t2 span, #t3 span{
+		font-size: 90%;
 	}
 
 }
