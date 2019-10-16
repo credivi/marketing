@@ -29,6 +29,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,800');
 @import url('https://fonts.googleapis.com/css?family=Lora|Oxygen&display=swap');
 
+@font-face {
+    font-family: 'mayeka_bold_demoregular';
+    src: url('mayekabolddemo-m8zr-webfont.woff2') format('woff2'),
+         url('mayekabolddemo-m8zr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 /*********************************
 2. Body and some general stuff
@@ -1525,6 +1534,7 @@ section
 }
 
 #t1 span{
+	//font-family:'mayeka_bold_demoregular';
 	color: #2C1378;
 	font-size: 2em;
 	font-weight: 700;
