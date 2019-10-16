@@ -30,12 +30,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Oxygen&display=swap');
 
 @font-face {
-    font-family: 'mayeka_bold_demoregular';
-    src: url('fonts/mayekabolddemo-m8zr-webfont.woff2') format('woff2'),
-         url('fonts/mayekabolddemo-m8zr-webfont.woff') format('woff');
-    font-weight: normal;
+    font-family: 'mayeka';
+    src: url('../fonts/mayekabold.ttf'),
+    url('../fonts/mayekabolddemo-m8zr-webfont.woff2') format('woff2'),
+    url('../fonts/mayekabolddemo-m8zr-webfont.woff') format('woff');
+    font-weight: bold;
     font-style: normal;
-
 }
 
 
@@ -1533,23 +1533,24 @@ section
 	//padding-top: 15em;
 }
 
-#t1 span{
-	font-family:'mayeka_bold_demoregular';
-	color: #2C1378;
-	font-size: 2em;
-	font-weight: 700;
+#t1 span, #t2 span, #t3 span{
+	font-family: 'mayeka';
+	font-size: 6em;	
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: -6px 3px  #E19AFA;
 	//text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
-	text-shadow: -0.1em 0.1em  #E19AFA;
+}
+
+#t1 span{
+	color: #2C1378;
+	//text-shadow: -6px 3px  #E19AFA;
 }
 #t2 span{
 	color: #2C1378;
-	font-size: 2em;
-	font-weight: 700;
-	text-shadow: -0.1em 0.1em  #E19AFA;
+	//text-shadow: -0.1em 0.1em  #E19AFA;
 }
 #t3 span{
 	color: #2C1378;
-	font-size: 2em;
-	font-weight: 700;
-	text-shadow: -0.1em 0.1em  #E19AFA;
+	//text-shadow: -0.1em 0.1em  #E19AFA;
 }

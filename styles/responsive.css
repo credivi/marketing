@@ -197,6 +197,29 @@
 	{
 		margin-bottom: 60px;
 	}
+
+
+/************************************************************
+estilo de los titulos del slide 991px
+************************************************************/
+
+	#t1{
+		padding-top: 10em;
+	}
+	#t2{
+		padding-bottom: 15em;
+	}
+	#t3{
+		padding-top: 15em;
+	}
+
+	#t1 span, #t2 span, #t3 span{
+		font-size: 4em;
+	}
+
+
+
+
 }
 
 /************
@@ -251,6 +274,8 @@
 		padding-left: 60px;
 		padding-right: 80px;
 	}
+
+
 }
 
 /************
@@ -332,9 +357,9 @@
 		font-size: 25px;
 	}
 
-/******************************************
+/******************************************************************
 estilo de los titulos del slide en celular
-*******************************************/
+******************************************************************/
 
 	#t1{
 		padding-top: 10em;
@@ -347,8 +372,10 @@ estilo de los titulos del slide en celular
 	}
 
 	#t1 span, #t2 span, #t3 span{
-		font-size: 90%;
+		font-size: 2em;
 	}
+
+
 
 }
 
