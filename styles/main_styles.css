@@ -31,8 +31,8 @@
 
 @font-face {
     font-family: 'mayeka_bold_demoregular';
-    src: url('mayekabolddemo-m8zr-webfont.woff2') format('woff2'),
-         url('mayekabolddemo-m8zr-webfont.woff') format('woff');
+    src: url('fonts/mayekabolddemo-m8zr-webfont.woff2') format('woff2'),
+         url('fonts/mayekabolddemo-m8zr-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -1534,7 +1534,7 @@ section
 }
 
 #t1 span{
-	//font-family:'mayeka_bold_demoregular';
+	font-family:'mayeka_bold_demoregular';
 	color: #2C1378;
 	font-size: 2em;
 	font-weight: 700;
