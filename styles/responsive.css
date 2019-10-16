@@ -205,6 +205,7 @@ estilo de los titulos del slide 991px
 
 	#t1{
 		padding-top: 10em;
+		padding-left: 3em;
 	}
 	#t2{
 		padding-bottom: 15em;
@@ -214,7 +215,8 @@ estilo de los titulos del slide 991px
 	}
 
 	#t1 span, #t2 span, #t3 span{
-		font-size: 4em;
+		font-size: 5em;
+		text-shadow: 1em;
 	}
 
 
@@ -373,6 +375,7 @@ estilo de los titulos del slide en celular
 
 	#t1 span, #t2 span, #t3 span{
 		font-size: 2em;
+		//text-shadow: -2px 1px;
 	}
 
 

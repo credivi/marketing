@@ -1538,19 +1538,19 @@ section
 	font-size: 6em;	
 	font-weight: 900;
 	text-transform: uppercase;
-	text-shadow: -6px 3px  #E19AFA;
+	//text-shadow: -6px 3px  #E19AFA;
 	//text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
 }
 
 #t1 span{
 	color: #2C1378;
-	//text-shadow: -6px 3px  #E19AFA;
+	text-shadow: -0.06em 0.03em  #E19AFA;
 }
 #t2 span{
-	color: #2C1378;
-	//text-shadow: -0.1em 0.1em  #E19AFA;
+	color: #71A9A6;
+	text-shadow: -0.06em 0.03em  #07685F;
 }
 #t3 span{
-	color: #2C1378;
-	//text-shadow: -0.1em 0.1em  #E19AFA;
+	color: #11354B;
+	text-shadow: -0.06em 0.03em  #86DCDB;
 }
