@@ -217,6 +217,7 @@ estilo de los titulos del slide 991px
 	#t1 span, #t2 span, #t3 span{
 		font-size: 5em;
 		text-shadow: 1em;
+		line-height: 1;
 	}
 
 
