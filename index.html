@@ -486,15 +486,28 @@
 				</div>
 
 							<div class="contact_form_container">
-								<form action="https://docs.google.com/forms/d/e/1FAIpQLSesR4Hshf_ZVGerE1tbbI5tZomHX79IvsJ8B1tfwTjIsXjqeg/formResponse" class="contact_form">
+
+								<form id="form" action="" class="contact_form">
+									
 									<div class="row contact_form_row">
-										<div class="col-md-6"><input type="text" class="contact_input" placeholder="Nombre" required="required" name="entry.1094151350"></div>
-										<div class="col-md-6"><input type="email" class="contact_input" placeholder="email" required="required" name="emailAddress"></div>
+
+										<div class="col-md-6">
+											<input id="name" type="text" class="contact_input" placeholder="Nombre" required="required" name="">
+										</div>
+
+										<div class="col-md-6">
+											<input id="emailAddress" type="email" class="contact_input" placeholder="email" required="required" name="">
+										</div>
 										
-										<div class="col-12"><textarea class="contact_input contact_textarea" placeholder="Realiza tu consulta aquí" required="required" name="entry.46917182"></textarea></div>
+										<div class="col-12">
+											<textarea id="message" class="contact_input contact_textarea" placeholder="Realiza tu consulta aquí" required="required" name=""></textarea>
+										</div>
+
 									</div>
+
 									<button class="contact_button">Enviar</button>
 								</form>
+
 							</div>
 
 				<!--div class="cta_list">
