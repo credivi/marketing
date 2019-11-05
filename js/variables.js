@@ -1,6 +1,8 @@
 
 
 var titulo1 = "Creatividad";
+
+//redes
 var facebook = "https://www.facebook.com/credivi/"
 var instagram = "https://www.instagram.com/credivi/"
 var youtube = "https://www.instagram.com/credivi/"
