@@ -23,8 +23,8 @@ var message = "entry.46917182";
 /***********  PLANES  **************/
 //plan 1
 let titulop1 ="INICIAL";
-let preciop1 ="$1.500";
-let diasp1 ="SEMANAL";
+let preciop1 ="$15.000";
+let diasp1 ="MENSUAL";
 let item1p1 ="Idea Creativa";
 let item2p1 ="Administración de Perfiles de 2 cuentas";
 let item3p1 ="2 posts por cuenta";
