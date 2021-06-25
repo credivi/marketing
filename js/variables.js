@@ -1,4 +1,9 @@
+//cambio de logo
+var mylogo ="images/logo_1.png"
 
+$(document).ready(function() {
+   $(".mylogo").attr("src",mylogo);
+});
 
 var mensaje ="Usted se esta contactando con CREDIVI, Marqueting Digital";
 

@@ -1,4 +1,4 @@
-titulo-web=>Marketing Digital - One Vision
+titulo-web=>Marketing Digital - CREDIVI
 
 about=>Nosotros
 services=>servicios
