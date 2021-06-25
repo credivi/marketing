@@ -1554,3 +1554,14 @@ section
 	color: #11354B;
 	text-shadow: -0.06em 0.03em  #86DCDB;
 }
+
+/*********************
+0. Languages
+*********************/
+
+.loading-lang{
+    opacity: 0;
+  }
+  .loading-lang.show{
+    opacity: 1;
+  }

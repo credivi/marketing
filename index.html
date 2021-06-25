@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<title>Credivi - Marketin Digital</title>
+<title data-lang="titulo-web">Marketin Digital - One Visio</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Sportify template project">
@@ -28,15 +28,16 @@
 		<div class="header_wrap d-flex flex-row align-items-center justify-content-center">
 			
 			<!-- Logo -->
-			<div class="logo"><a href="#"><img src="images/logo_1.png" alt=""></a></div>
+			<div class="logo"><a href="#"><img src="images/logo_01.png" alt=""></a></div>
 
 			<!-- Main Nav -->
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-center">
-					<li><a href="#about">Nosotros</a></li>
-					<li><a href="#classes">Servicios</a></li>
-					<li><a href="#pricing">Planes</a></li>
-					<li><a href="#footer">Contacto</a></li>
+					<li><a data-lang="about" href="#about">Nosotros</a></li>
+					<li><a data-lang="services" href="#classes">Servicios</a></li>
+					<li><a data-lang="plans" href="#pricing">Planes</a></li>
+					<li><a data-lang="contact" href="#footer">Contacto</a></li>
+					<li><a href="#" id="translate" data-text="Español, English" data-file="es,en" data-index="1">Español</a></li>
 				</ul>
 			</nav>
 
@@ -63,15 +64,15 @@
 		<div class="header_wrap d-flex flex-row align-items-center justify-content-center">
 			
 			<!-- Logo -->
-			<div class="logo"><a href="#"><img src="images/logo_1.png" alt=""></a></div>
+			<div class="logo"><a href="#"><img src="images/logo_01.png" alt=""></a></div>
 
 			<!-- Main Nav -->
 			<nav class="main_nav">
 				<ul class="d-flex flex-row align-items-center justify-content-center">
-					<li><a href="#about">Nosotros</a></li>
-					<li><a href="#classes">Servicios</a></li>
-					<li><a href="#pricing">Planes</a></li>
-					<li><a href="#footer">Contacto</a></li>
+					<li><a data-lang="about" href="#about">Nosotros</a></li>
+					<li><a data-lang="services" href="#classes">Servicios</a></li>
+					<li><a data-lang="plans" href="#pricing">Planes</a></li>
+					<li><a data-lang="contact" href="#footer">Contacto</a></li>
 				</ul>
 			</nav>
 
@@ -102,10 +103,10 @@
 			<div class="menu_nav_container">
 				<nav class="menu_nav text-center" >
 					<ul class="menu_close">
-						<li><a href="#about">Nosotros</a></li>
-						<li><a href="#classes">Servicios</a></li>
-						<li><a href="#pricing">Planes</a></li>
-						<li><a  href="#footer">Contacto</a></li>
+						<li><a data-lang="about" href="#about">Nosotros</a></li>
+						<li><a data-lang="services" href="#classes">Servicios</a></li>
+						<li><a data-lang="plans" href="#pricing">Planes</a></li>
+						<li><a data-lang="contact" href="#footer">Contacto</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -129,9 +130,9 @@
 		<div class="home_slider_container">
 			<div class="owl-carousel owl-theme home_slider">
 				
-				<!-- Slide -->
+				<!-- Slide 1 -->
 				<div class="slide">
-					<div class="background_image" style="background-image:url(images/index_1.jpeg)"></div>
+					<div class="background_image" style="background-image:url(images/index_3.jpeg)"></div>
 					<div class="home_slider_overlay"></div>
 					<div class="slide_wrap d-flex flex-column align-items-start justify-content-center">
 						<div class="home_container">
@@ -141,7 +142,7 @@
 										<div class="home_content active">
 											<div class="home_subtitle"></div>
 											<div class="home_title" id="t1">
-												<span id="titulo1">Creatividad</span>
+												<span data-lang="slide1" id="titulo1">One Vision</span>
 											</div>
 											<!--<div class="button home_button"><a href="#">Creatividad</a></div>-->
 										</div>
@@ -152,7 +153,30 @@
 					</div>
 				</div>
 
-				<!-- Slide -->
+				<!-- Slide 2 -->
+				<div class="slide">
+					<div class="background_image" style="background-image:url(images/index_1.jpeg)"></div>
+					<div class="home_slider_overlay"></div>
+					<div class="slide_wrap d-flex flex-column align-items-start justify-content-center">
+						<div class="home_container">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<div class="home_content">
+											<div class="home_subtitle"></div>
+											<div class="home_title" id="t2">
+												<span data-lang="slide2" id="titulo2">creatividad</span>
+											</div>
+											<!--<div class="button home_button"><a href="#">Creatividad</a></div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Slide 3 -->
 				<div class="slide">
 					<div class="background_image" style="background-image:url(images/index_2.jpeg)"></div>
 					<div class="home_slider_overlay"></div>
@@ -163,33 +187,9 @@
 									<div class="col">
 										<div class="home_content">
 											<div class="home_subtitle"></div>
-											<div class="home_title" id="t2">
-												<span id="titulo2">Diseño<br>
-												Digital</span>
-											</div>
-											<!--<div class="button home_button"><a href="#">Creatividad</a></div>-->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Slide -->
-				<div class="slide">
-					<div class="background_image" style="background-image:url(images/index_3.jpeg)"></div>
-					<div class="home_slider_overlay"></div>
-					<div class="slide_wrap d-flex flex-column align-items-start justify-content-center">
-						<div class="home_container">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="home_content">
-											<div class="home_subtitle"></div>
 											<div class="home_title" id="t3">
-												<span id="titulo3">Visión<br>
-												de&nbsp;&nbsp;Futuro</span>
+												<span data-lang="slide3" id="titulo3">Diseño<br>
+												digital</span>
 											</div>
 											<!--<div class="button home_button"><a href="#">Creatividad</a></div>-->
 										</div>
@@ -426,7 +426,7 @@
 							<div>
 								<div class="classes_slide_wrap">
 									<div class="text-center">
-										<div class="classes_title"><h3 id="titulo_s1">SEO 1</h3></div>
+										<div class="classes_title"><h3 id="titulo_s1">SEO</h3></div>
 										<div class="classes_text">
 											<p id="par_s1" >Aenean auctor nisl vitae auctor faucibus. Pellentesque imperdiet auctor eros, sit amet ornare mauris malesuada in. Duis rutrum nisi tempus finibus luctus. Sed porta vel.</p>
 										</div>
@@ -568,7 +568,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<div class="footer_logo text-center"><a href="#"><img src="images/logo_1.png" alt=""></a></div>
+						<div class="footer_logo text-center"><a href="#"><img src="images/logo_01.png" alt=""></a></div>
 					</div>
 				</div>
 				<div class="row footer_row">
@@ -655,5 +655,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/variables.js"></script>
+<script src="js/lang.js"></script>
+
 </body>
 </html>

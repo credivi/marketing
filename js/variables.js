@@ -1,7 +1,5 @@
 
 
-var titulo1 = "Creatividad";
-var titulo_s = "Mis Servicios";
 var mensaje ="Usted se esta contactando con CREDIVI, Marqueting Digital";
 
 //redes
@@ -23,7 +21,7 @@ var message = "entry.46917182";
 /***********  PLANES  **************/
 //plan 1
 let titulop1 ="INICIAL";
-let preciop1 ="$1.500";
+let preciop1 ="$2.000";
 let diasp1 ="SEMANAL";
 let item1p1 ="Idea Creativa";
 let item2p1 ="Administración de Perfiles de 2 cuentas";
@@ -67,7 +65,6 @@ let par_s1 = "";
 
 //redes
 $(document).ready(function() {
-  $("#titulo1").text(titulo1);
   $("#titulo_s").text(titulo_s);
    $(".facebook").attr("href", facebook);
    $(".instagram").attr("href", instagram);
